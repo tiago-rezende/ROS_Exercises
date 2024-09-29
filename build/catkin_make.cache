@@ -1,0 +1,2 @@
+fibonacci:homework1
+-DCATKIN_DEVEL_PREFIX=/home/robot/ros_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/robot/ros_workspace/install -G Unix Makefiles
