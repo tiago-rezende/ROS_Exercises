@@ -17,3 +17,9 @@ The listener() function sets up a node, subscribing to the last topic. It employ
 
 This homework implements a KNN algorithm to classify different faces into classes representing different expressions. After loading the images and converting them to NumPy arrays, the dataset is created using scikit-learn's function train_test_split. The data is then reshaped into one-dimensional arrays to facilitate processing with PCA (Principal Component Analysis), which reduces their dimensionality while preserving important information. Next, the KNN model is created using scikit-learn. Different numbers of neighbors are tested (from one to ten), and the number of folds defined for cross-validation is set to 5. The best number of neighbors found is then used to predict the validation dataset, and the classification report and confusion matrix are displayed.
 
+##Homework 7 Face Detection and Feature Extraction: main/Face Detection and Feature Extraction
+
+The code implements face detection and feature extraction using the cv2 library. The face is recognized using dlib, which identifies facial features and assigns numbered landmarks to them. By knowing which landmarks correspond to each facial feature, we can select different parts of the face and draw bounding boxes around them. This was done for the face, mouth, and eyes.
+
+Additionally, it is possible to create a blink detection mechanism using the EAR (Eye Aspect Ratio) equation, which calculates distances between specific landmarks to determine eye closure.
+
